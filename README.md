@@ -1,6 +1,6 @@
 <!-- A PROPOS DU PROJET -->
 ## A propos du projet
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot](https://tse2.mm.bing.net/th/id/OIP.-MsXb9_b15ImreX7T1miGAHaEK?rs=1&pid=ImgDetMain&o=7&rm=3)](https://example.com)
 Il existe de nombreux modèles de README sur GitHub, mais je n'en ai pas trouvé
 un qui réponde vraiment à mes besoins, alors j'ai créé ce modèle amélioré.
 Bien sûr, il n'existe pas de modèle unique pour tous les projets, car vos
@@ -30,7 +30,7 @@ logiciel et de la façon de les installer.
   npm install npm@latest -g
 ```
 ### Installation
-3
+
 1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
 ```sh
@@ -68,7 +68,7 @@ faites sont **grandement appréciées**.
 4. Pusher vers la branche (`git push origin feature/AmazingFeature`)
 5. Ouvrez une Pull Request
 <!--Remerciements -->
-4
+
 ## Remerciements
 * [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
 * [Img Shields](https://shields.io)
@@ -114,7 +114,7 @@ the-badge&logo=linkedin&colorB=blue
 | :-------------:     |:--------------:    |
 | Firefox développeur | Visual Studio Code |
 | Git/GitHub          | Markdown           |
-5
+
 ***N'hésitez pas à contribuer, en ouvrant une issue.***
 #### Merci à tous
 ***
