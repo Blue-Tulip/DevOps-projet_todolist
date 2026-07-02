@@ -28,7 +28,7 @@ logiciel et de la façon de les installer.
   docker --version
 ```
 Installer docker 
-* [Get starter](https://docs.docker.com/get-started/get-docker/)
+* [Get started with Docker](https://docs.docker.com/get-started/get-docker/)
 
 ### Installation
 
@@ -58,17 +58,6 @@ _Pour plus d'exemples, veuillez vous référer à la [Documentation]
 Voir le [open issues](https://github.com/thierry-laval/P22-template-pour-un
 readme/issues) pour une liste des fonctionnalités proposées (et des problèmes
 connus).
-<!-- CONTRIBUTION -->
-## Contribuer
-Les contributions sont ce qui fait de la communauté open source un endroit si
-incroyable pour apprendre, inspirer et créer. Toutes les contributions que vous
-faites sont **grandement appréciées**.
-1. Forkez le projet
-2. Créez votre branche Feature (`git checkout -b feature/AmazingFeature`)
-3. Commitez vos changements (`git commit -m 'Add some AmazingFeature'`)
-4. Pusher vers la branche (`git push origin feature/AmazingFeature`)
-5. Ouvrez une Pull Request
-<!--Remerciements -->
 
 ## Remerciements
 * [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
@@ -86,9 +75,14 @@ faites sont **grandement appréciées**.
 <!-- MARKDOWN LIENS & IMAGES -->
 
 ### Utilisé dans ce projet
-| Langages           | et Applications    |
-| :-------------:     |:--------------:    |
-| Firefox développeur | Visual Studio Code |
-| Git/GitHub          | Markdown           |
+* Git
+* Github
+* Github action
+* Docker (conteneurisation, et orchestration)
+* VSCode
+* VMWare
+* Uptime Kuma
 
-***N'hésitez pas à contribuer, en ouvrant une issue.***
+|coucou|salut|hello|
+|------|-----|-----|
+| kjsf |hdfeh|jcsfe|
