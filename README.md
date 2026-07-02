@@ -1,23 +1,16 @@
 <!-- A PROPOS DU PROJET -->
 ## A propos du projet
-[![Product Name Screen Shot](https://tse2.mm.bing.net/th/id/OIP.-MsXb9_b15ImreX7T1miGAHaEK?rs=1&pid=ImgDetMain&o=7&rm=3)](https://example.com)
+[![Product Name Screen Shot](https://tse2.mm.bing.net/th/id/OIP.-MsXb9_b15ImreX7T1miGAHaEK?rs=1&pid=ImgDetMain&o=7&rm=3 =20x20)](https://example.com)
 
-Il existe de nombreux modèles de README sur GitHub, mais je n'en ai pas trouvé
-un qui réponde vraiment à mes besoins, alors j'ai créé ce modèle amélioré.
-Bien sûr, il n'existe pas de modèle unique pour tous les projets, car vos
-besoins peuvent être différents. Vous pouvez suggérer des changements en créant
-une demande de modification ou en ouvrant un problème. Merci à toutes les
-personnes qui ont contribué à l'expansion de ce modèle !
-Une liste de ressources couramment utilisées et que je trouve utiles est listée
-dans les remerciements.
 ### Construit avec
-Cette section doit énumérer tous les principaux frameworks que vous avez
+Cette section doit énumérer tous les principaux outils/technos que vous avez
 utilisés pour construire votre projet. Laissez les add-ons/plugins pour la
 section remerciements.
 Voici quelques exemples.
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
-* [Laravel](https://laravel.com)
+
+* [Docker](https://www.docker.com/)
+* [Docker compose](https://docs.docker.com/compose/)
+* [Git](https://git-scm.com/)
 <!-- COMMENCER A TRAVAILLER -->
 ## Commencer à travailler
 Il s'agit d'un exemple de la façon dont vous pouvez donner des instructions sur
@@ -30,6 +23,13 @@ logiciel et de la façon de les installer.
 ```sh
   npm install npm@latest -g
 ```
+* docker (vérifier si installé)
+```sh
+  docker --version
+```
+Installer docker 
+* [Get starter](https://docs.docker.com/get-started/get-docker/)
+
 ### Installation
 
 1. Get a free API Key at [https://example.com](https://example.com)
@@ -82,34 +82,9 @@ faites sont **grandement appréciées**.
 * [Sticky Kit](http://leafo.net/sticky-kit)
 * [JVectorMap](http://jvectormap.com)
 * [Font Awesome](https://fontawesome.com)
+
 <!-- MARKDOWN LIENS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/thierry
-laval/P22-template-pour-un-readme.svg?label=Contributeurs&style=for-the
-badge&color=blue
-[contributors-url]: https://github.com/thierry-laval/P22-template-pour-un
-readme/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/thierry-laval/P22-template
-pour-un-readme?style=for-the-badge
-[forks-url]: https://github.com/thierry-laval/P22-template-pour-un
-readme/network/members
-[stars-shield]: https://img.shields.io/github/stars/thierry-laval/P22-template
-pour-un-readme?style=for-the-badge
-[stars-url]: https://github.com/thierry-laval/P22-template-pour-un
-readme/stargazers
-[issues-shield]: https://img.shields.io/github/issues/thierry-laval/P22
-template-pour-un-readme?color=yellow&style=for-the-badge
-[issues-url]: https://github.com/thierry-laval/P22-template-pour-un
-readme/issues
-[license-shield]: https://img.shields.io/badge/LICENCE-MIT
-green?color=green&style=for-the-badge
-[license-url]: https://github.com/thierry-laval/P22-template-pour-un
-readme/blob/main/LICENSE
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for
-the-badge&logo=linkedin&colorB=blue
-[linkedin-url]: https://www.linkedin.com/in/thierry-laval
-[product-screenshot]: images/screenshot.png
-***
+
 ### Utilisé dans ce projet
 | Langages           | et Applications    |
 | :-------------:     |:--------------:    |
@@ -117,18 +92,3 @@ the-badge&logo=linkedin&colorB=blue
 | Git/GitHub          | Markdown           |
 
 ***N'hésitez pas à contribuer, en ouvrant une issue.***
-#### Merci à tous
-***
-#### # &nbsp; License
-Ce projet est sous licence [MIT](LICENCE).
-Copyright © 2021 [Thierry Laval](https://thierrylaval.dev)
-#### %%% Soutien
-Si vous appréciez ce projet, vous pouvez me soutenir :
-<a href="https://paypal.me/thierrylaval01?country.x=FR&locale.x=fr_FR"
-target="_blank"><img
-src="https://www.paypalobjects.com/digitalassets/c/website/logo/full
-text/pp_fc_hl.svg" alt="Soutiens-moi !" height="35" width="150"></a>
-[Voir mon travail](https://github.com/thierry-laval)
-[Créer un bon template](https://github.com/thierry-laval/P22-template-pour-un
-readme)
-***
