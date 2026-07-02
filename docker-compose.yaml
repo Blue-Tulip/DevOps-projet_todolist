@@ -25,3 +25,13 @@ services:
       test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
       timeout: 20s
       retries: 10
+  kuma:  # nom du service (ton container s’appellera "kuma" dans docker compose)
+    image: louislam/uptime-kuma:2  # image Docker officielle de Uptime Kuma (logiciel déjà prêt à l’emploi)
+    container_name: uptime-kuma  # nom fixe du container (plus simple à retrouver que le nom généré automatiquement)
+    restart: unless-stopped  # redémarre automatiquement sauf si tu l’arrêtes toi-même
+    ports:
+      - "3001:3001"  # expose le port 3001 du container vers ton PC (localhost:3001)
+    volumes:
+      - uptime-kuma:/app/data  # stocke les données de Kuma en dehors du container (persistant)
+  volumes:  # déclaration des volumes Docker (stockage persistant)
+    uptime-kuma:  # crée un volume nommé "uptime-kuma" pour sauvegarder les données
