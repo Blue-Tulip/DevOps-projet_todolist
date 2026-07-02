@@ -1,6 +1,7 @@
 <!-- A PROPOS DU PROJET -->
 ## A propos du projet
 [![Product Name Screen Shot](https://tse2.mm.bing.net/th/id/OIP.-MsXb9_b15ImreX7T1miGAHaEK?rs=1&pid=ImgDetMain&o=7&rm=3)](https://example.com)
+
 Il existe de nombreux modèles de README sur GitHub, mais je n'en ai pas trouvé
 un qui réponde vraiment à mes besoins, alors j'ai créé ce modèle amélioré.
 Bien sûr, il n'existe pas de modèle unique pour tous les projets, car vos
