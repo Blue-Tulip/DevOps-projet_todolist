@@ -1,0 +1,15 @@
+name: deploy-html
+on: [push] # à chaque push
+jobs:
+  build:
+    runs-on: ubuntu-latest # on va utiliser un runner càd une sorte vm ubuntu
+  steps: # chaque step = une action executée
+    - name: Checkout code
+      uses: actions/checkout@v7 # cette action est une github action offcielle qui sert à récupérer le code source dans la machine virtuelle
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v4 #prendre ton site (HTML/CSS/JS) et le publier sur GitHub Pages automatiquement.
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./docs
+        user_name: Blue-Tulip
+        user_email: sarah_raoul@gmx.fr
