@@ -1,5 +1,7 @@
 name: deploy-html
 on: [push] # à chaque push
+permissions:
+  contents: write
 jobs:
   build:
     runs-on: ubuntu-latest # on va utiliser un runner càd une sorte vm ubuntu
